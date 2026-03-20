@@ -1,0 +1,61 @@
+{
+    "name": "testShouldOpenDialogWithAllComponents",
+    "start": 1774014119685,
+    "stop": 1774014120806,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "085e4ab5-d27d-45cb-98bf-a70f72bb4d45",
+    "historyId": "131e0f6e41a00a30d0d3fa2bea2f28df",
+    "fullName": "com.example.testandroid.ui.ShowDialogButtonTest.testShouldOpenDialogWithAllComponents",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.testandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.testandroid.ui.ShowDialogButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testShouldOpenDialogWithAllComponents"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.testandroid.ui.ShowDialogButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.testandroid.runner.AllureInstrumentationRunner(57)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "Dialog shows title, message, OK and Cancel"
+        },
+        {
+            "name": "feature",
+            "value": "Show Dialog Button"
+        }
+    ]
+}

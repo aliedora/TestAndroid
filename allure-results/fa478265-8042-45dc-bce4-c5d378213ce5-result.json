@@ -1,0 +1,61 @@
+{
+    "name": "testShouldDisplayDialogButton",
+    "start": 1774014122320,
+    "stop": 1774014122900,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "fa478265-8042-45dc-bce4-c5d378213ce5",
+    "historyId": "3771f1550f2d41c5a13609319e644e06",
+    "fullName": "com.example.testandroid.ui.ShowDialogButtonTest.testShouldDisplayDialogButton",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.testandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.testandroid.ui.ShowDialogButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testShouldDisplayDialogButton"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.testandroid.ui.ShowDialogButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.testandroid.runner.AllureInstrumentationRunner(57)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "Dialog button is visible with correct label"
+        },
+        {
+            "name": "feature",
+            "value": "Show Dialog Button"
+        }
+    ]
+}

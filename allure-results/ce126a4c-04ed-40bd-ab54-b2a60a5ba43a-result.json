@@ -1,0 +1,61 @@
+{
+    "name": "testShouldCloseDialogByOkClick",
+    "start": 1774016684170,
+    "stop": 1774016685328,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "ce126a4c-04ed-40bd-ab54-b2a60a5ba43a",
+    "historyId": "c03e99f807c4f5c71108ba6e94305536",
+    "fullName": "com.example.testandroid.ui.ShowDialogButtonTest.testShouldCloseDialogByOkClick",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.testandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.testandroid.ui.ShowDialogButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testShouldCloseDialogByOkClick"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.testandroid.ui.ShowDialogButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.testandroid.runner.AllureInstrumentationRunner(56)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "Dialog closes on OK click"
+        },
+        {
+            "name": "feature",
+            "value": "Show Dialog Button"
+        }
+    ]
+}

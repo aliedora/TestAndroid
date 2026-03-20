@@ -1,0 +1,61 @@
+{
+    "name": "testShouldCloseDialogByCancelClick",
+    "start": 1774013174093,
+    "stop": 1774013176248,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "7cae8dfa-79de-4197-a028-dd5eed5b84a3",
+    "historyId": "f468b4f62876458e3c9176467084c6a1",
+    "fullName": "com.example.testandroid.ui.ShowDialogButtonTest.testShouldCloseDialogByCancelClick",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.testandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.testandroid.ui.ShowDialogButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testShouldCloseDialogByCancelClick"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.testandroid.ui.ShowDialogButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.testandroid.runner.AllureInstrumentationRunner(56)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "Dialog closes on Cancel click"
+        },
+        {
+            "name": "feature",
+            "value": "Show Dialog Button"
+        }
+    ]
+}

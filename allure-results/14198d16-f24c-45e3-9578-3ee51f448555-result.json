@@ -1,0 +1,61 @@
+{
+    "name": "testShouldDisplayToastButton",
+    "start": 1774012356205,
+    "stop": 1774012357418,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "14198d16-f24c-45e3-9578-3ee51f448555",
+    "historyId": "3f239903330a37e70d1123ea60d7df9a",
+    "fullName": "com.example.testandroid.ui.ShowToastButtonTest.testShouldDisplayToastButton",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.testandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.testandroid.ui.ShowToastButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testShouldDisplayToastButton"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.testandroid.ui.ShowToastButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.testandroid.runner.AllureInstrumentationRunner(56)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "Toast button is visible with correct label"
+        },
+        {
+            "name": "feature",
+            "value": "Toast Button"
+        }
+    ]
+}

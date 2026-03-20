@@ -1,0 +1,61 @@
+{
+    "name": "testShouldShowToastOnButtonClick",
+    "start": 1774013651308,
+    "stop": 1774013652509,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "c825507e-ec4b-4cec-a623-3787ed9e9d44",
+    "historyId": "66ee6a57d9fbe749e4d92f22b4490a7",
+    "fullName": "com.example.testandroid.ui.ShowToastButtonTest.testShouldShowToastOnButtonClick",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.testandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.testandroid.ui.ShowToastButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testShouldShowToastOnButtonClick"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.testandroid.ui.ShowToastButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.testandroid.runner.AllureInstrumentationRunner(56)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "Clicking button shows toast message"
+        },
+        {
+            "name": "feature",
+            "value": "Toast Button"
+        }
+    ]
+}

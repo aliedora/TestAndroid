@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TestAndroid</string>
+    <string name="btn_show_toast">Show Toast</string>
+    <string name="btn_show_dialog">Show Dialog</string>
+    <string name="btn_open_webview">Open WebView</string>
+    <string name="btn_go_to_details">Go to Details</string>
+    <string name="btn_call_api">Call API</string>
+    <string name="btn_preferences">Preferences</string>
+    <string name="btn_go_back">Go Back</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_clear">Clear</string>
+    <string name="toast_message">This is my toast! Check text</string>
+    <string name="dialog_title">Test Dialog</string>
+    <string name="dialog_message">This is a test dialog for Espresso</string>
+    <string name="detail_item_data">Item: %1$s</string>
+    <string name="tv_api_result_default">API result will appear here</string>
+    <string name="tv_saved_value_default">No value saved</string>
+    <string name="hint_preference_value">Enter value</string>
+    <string name="label_rating">Rating</string>
+    <string name="checkbox_label">Interact with me</string>
+    <string name="loading">Loading…</string>
+    <string name="webview_url">https://www.example.com</string>
+    <string name="detail_data_default">No data</string>
+</resources>
