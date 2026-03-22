@@ -1,15 +1,12 @@
 package com.example.testandroid.screen
 
-import android.widget.Toast
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
-import androidx.test.espresso.matcher.RootMatchers
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.example.testandroid.R
-import com.example.testandroid.helpers.ToastMatcher
 import io.qameta.allure.kotlin.Step
 
 class HomeScreen {
@@ -27,9 +24,7 @@ class HomeScreen {
 
     @Step("Verify toast message is displayed")
     fun assertToastMessageVisible() {
-        onView(withText(R.string.toast_message))
-         .inRoot(ToastMatcher())
-            .check(matches(isDisplayed()))
+        onView(withText(R.string.toast_message)).check(matches(isDisplayed()))
     }
 
     @Step("Click Show Dialog button")

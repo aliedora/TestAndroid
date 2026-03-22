@@ -13,7 +13,8 @@ import org.junit.runner.RunWith
 @Feature("Toast Button")
 @RunWith(AndroidJUnit4::class)
 class ShowToastButtonTest {
-    @get:Rule val activityRule = ActivityScenarioRule(MainActivity::class.java)
+    @get:Rule
+    val activityRule = ActivityScenarioRule(MainActivity::class.java)
 
     private val homeScreen = HomeScreen()
 
