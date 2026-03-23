@@ -15,13 +15,17 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "com.example.testandroid.runner.AllureInstrumentationRunner"
-        testInstrumentationRunnerArguments["allureResultsDirectory"] = "/data/data/com.example.testandroid/files/allure-results"
+        testInstrumentationRunnerArguments["allureResultsDirectory"] =
+            "/data/data/com.example.testandroid/files/allure-results"
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {
@@ -33,6 +37,18 @@ android {
     }
     buildFeatures {
         viewBinding = true
+    }
+    packaging {
+        resources {
+            excludes += setOf(
+                "META-INF/LICENSE.md",
+                "META-INF/LICENSE-notice.md",
+                "META-INF/NOTICE.md",
+                "META-INF/DEPENDENCIES",
+                "META-INF/io.netty.versions.properties",
+                "META-INF/INDEX.LIST"
+            )
+        }
     }
 }
 
@@ -48,9 +64,9 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
     implementation(libs.okhttp.logging)
-	implementation(libs.appcompat)
-	
-	testImplementation(libs.junit)
+    implementation(libs.appcompat)
+
+    testImplementation(libs.junit)
     testImplementation(libs.mockito.core)
     testImplementation(libs.mockito.kotlin)
     testImplementation(libs.androidx.arch.core.testing)
@@ -65,6 +81,9 @@ dependencies {
     androidTestImplementation(libs.mockito.kotlin)
     androidTestImplementation(libs.allure.kotlin.android)
     androidTestImplementation(libs.allure.kotlin.commons)
+    androidTestImplementation(libs.wiremock) {
+        exclude(group = "org.hamcrest")
+    }
 }
 
 tasks.register("pullAllureResults") {
@@ -80,6 +99,7 @@ tasks.register("pullAllureResults") {
     }
 }
 
-tasks.matching { it.name.startsWith("connected") && it.name.endsWith("AndroidTest") }.configureEach {
-    finalizedBy("pullAllureResults")
-}
+tasks.matching { it.name.startsWith("connected") && it.name.endsWith("AndroidTest") }
+    .configureEach {
+        finalizedBy("pullAllureResults")
+    }

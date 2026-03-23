@@ -8,6 +8,7 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.example.testandroid.R
 import io.qameta.allure.kotlin.Step
+import org.hamcrest.CoreMatchers.containsString
 
 class HomeScreen {
     private val showToastButton = onView(withId(R.id.btnShowToast))
@@ -34,5 +35,22 @@ class HomeScreen {
     fun assertShowDialogButtonVisible() {
         showDialogButton.check(matches(isDisplayed()))
         showDialogButton.check(matches(withText(R.string.btn_show_dialog)))
+    }
+
+    private val callApiButton = onView(withId(R.id.btnCallApi))
+    private val apiResultText = onView(withId(R.id.tvApiResult))
+
+    @Step("Click Call API button")
+    fun clickCallApi() = callApiButton.perform(click())
+
+    @Step("Verify Call API button is displayed")
+    fun assertCallApiButtonVisible() {
+        callApiButton.check(matches(isDisplayed()))
+        callApiButton.check(matches(withText(R.string.btn_call_api)))
+    }
+
+    @Step("Verify API result text contains substring")
+    fun assertApiResultContains(text: String) {
+        apiResultText.check(matches(withText(containsString(text))))
     }
 }
